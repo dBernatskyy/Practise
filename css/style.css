@@ -1,1 +1,94 @@
-dfd
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #191716;
+}
+
+
+.wrapper {}
+.menu {
+	background-color: #363230;
+	height: 60px;
+	border: 1px solid white;
+}
+.frames {
+}
+.menu_wrap {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10px;
+	align-items: center;
+}
+.menu_search {
+	display: flex;
+	align-items: center;
+	border: 1px solid white;
+}
+.logotype {
+	height: 40px;
+	width: 40px;
+	background-color: white;
+	border-radius: 50%;
+	margin: 0 10px 0 0;
+}
+input {
+	height: 35px;
+}
+.circle {
+	height: 40px;
+	width: 40px;
+	background-color: white;
+	border-radius: 50%;
+}
+.menu_navigation {
+	display: flex;
+	padding: 10px;
+}
+.menu_nav_home {}
+.menu_nav_frineds {}
+.menu_nav_watch {}
+.menu_nav_groups {}
+.menu_nav_gaming {}
+.menu_others {
+	display: flex;
+}
+.menu_menu {}
+.menu_massenger {}
+.menu_notifications {}
+.menu_profile {}
+.content {}
+.content_wrap {}
+.content_menu {}
+.content_menu_wrap {}
+.content_menu_profile {}
+.content_menu_find_friends {}
+.content_menu_groups {}
+.content_menu_watch {}
+.content_menu_memories {}
+.content_menu_saved {}
+.content_menu_pages {}
+.content_menu_events {}
+.content_menu_most_resent {}
+.content_menu_favoriets {}
+.content_menu_see_more {}
+.content_line {}
+.content_line_wrap {}
+.content_line_menu {}
+.content_line_menu_wrap {}
+.content_line_menu_stories {}
+.content_line_menu_reels {}
+.content_line_menu_rooms {}
+.content_line_stories {}
+.content_line_stories_wrap {}
+.content_line_stories_block {}
+.content_contacts {}
+.content_contacts_sponsored {}
+.content_contacts_contacts {}
+.contact_one {}
+.contact_two {}
+.contact_tree {}
+.contact_four {}
+.contact_five {}
