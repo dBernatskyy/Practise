@@ -2,6 +2,16 @@
 	margin: 0;
 	padding: 0;
 }
+input::-ms-clear {
+  display: none;
+}
+:focus,
+:active {
+  outline: none;
+}
+
+
+
 
 body {
 	background-color: #191716;
@@ -48,12 +58,6 @@ input {
 	background-color: white;
 	border-radius: 50%;
 	margin: 0 35px;
-}
-.circle2:hover {
-	background-color: white;
-	opacity: 20%;
-	height: 60px;
-	width: 80px;
 }
 .menu_navigation {
 	display: flex;
