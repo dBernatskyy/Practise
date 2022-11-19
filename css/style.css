@@ -22,6 +22,7 @@ body {
 .menu {
 	background-color: #363230;
 	height: 60px;
+	margin: 0 0 20px 0;
 }
 .frames {
 
@@ -78,25 +79,46 @@ input {
 .menu_massenger {}
 .menu_notifications {}
 .menu_profile {}
-.content {}
-.content_wrap {}
+.content {
+	margin: 0 8px;
+}
+.content_wrap {
+	display: flex;
+}
 .content_menu {}
-.content_menu_wrap {}
-.content_menu_profile {}
-.content_menu_find_friends {}
-.content_menu_groups {}
-.content_menu_watch {}
-.content_menu_memories {}
-.content_menu_saved {}
-.content_menu_pages {}
-.content_menu_events {}
-.content_menu_most_resent {}
-.content_menu_favoriets {}
-.content_menu_see_more {}
-.content_line {}
-.content_line_wrap {}
+.content_menu_wrap {
+	display: flex;
+	flex-direction: column;
+}
+.content_menu_box {
+	width: 200px;
+	height: 50px;
+}
+.content_menu_box:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+	transition: 0.3s;
+
+}
+.img2 {
+	height: 40px;
+	display: block;
+	padding: 5px;
+}
+.content_line {
+	background-color: rgba(255, 255, 255, 0.3);
+	width: 550px;
+	height: 300px;
+	border-radius: 10px;
+}
+.img3 {
+	height: 40px;
+}
+.content_line_box {}
 .content_line_menu {}
-.content_line_menu_wrap {}
+.content_line_menu_wrap {
+	display: flex;
+	justify-content: space-around;
+}
 .content_line_menu_stories {}
 .content_line_menu_reels {}
 .content_line_menu_rooms {}
