@@ -24,11 +24,12 @@ body {
 	height: 60px;
 }
 .frames {
+
 }
 .menu_wrap {
 	display: flex;
 	justify-content: space-between;
-	padding: 0 10px;
+	padding: 5px 10px;
 	align-items: center;
 }
 .menu_search {
@@ -36,8 +37,8 @@ body {
 	align-items: center;
 }
 .logotype {
-	height: 40px;
-	width: 40px;
+	height: 35px;
+	width: 35px;
 	background-color: white;
 	border-radius: 50%;
 	margin: 0 10px 0 0;
@@ -45,29 +46,31 @@ body {
 input {
 	height: 35px;
 }
-.circle {
-	height: 40px;
-	width: 40px;
-	background-color: white;
-	border-radius: 50%;
+.box {
+	height: 50px;
+	width: 110px;
 	margin: 0 5px;
+	position: relative;
 }
-.circle2 {
-	height: 40px;
-	width: 40px;
-	background-color: white;
+.box:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.img1 {
+	position: absolute;
+	height: 30px;
+	top: 10px;
+	left: 40px;
+}
+.circle {
+	height: 35px;
+	width: 35px;
 	border-radius: 50%;
-	margin: 0 35px;
+	background-color: white;
+	margin: 0 5px;
 }
 .menu_navigation {
 	display: flex;
-	padding: 10px;
 }
-.menu_nav_home {}
-.menu_nav_frineds {}
-.menu_nav_watch {}
-.menu_nav_groups {}
-.menu_nav_gaming {}
 .menu_others {
 	display: flex;
 }
